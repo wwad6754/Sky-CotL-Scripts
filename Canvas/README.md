@@ -64,7 +64,7 @@ Telegram - SkyHub2 Community: https://t.me/+Y7derzeLVuMzY2I1
 
 Discord - Official Sky Server: https://discord.com/invite/thatskygame  
 Discord - Canvascord: https://discord.com/invite/k2JBeWkJ3b  
-Discord - Spooky Shelter: https://discord.com/invite/fDFU5QWKgh  
+Discord - •~S'Kids.Nest~•: https://discord.com/invite/fDFU5QWKgh  
 Discord - SKY[1]MOD server: https://discord.com/invite/HQe3y4aUVb  
 Discord - Hellboy Project: https://discord.com/invite/2AHfEQJggX  
 Discord - Sky CotL Shelter: https://discord.com/invite/MzQFnr3RPZ  
