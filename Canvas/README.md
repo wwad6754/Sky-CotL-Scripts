@@ -11,13 +11,14 @@ In light of the AutoWax creator's access to Sky being revoked, the AutoWax team 
 - 📚 **Userlibs**, or simply **Libs**, are fan-made helper programs (libraries) for Canvas that actually unleash its true power. Some of these libs include Auto CRing, melting, spell modification, or virtually anything as per your liking.
 
 ## Available Libs:
-- **Autowax** (aka. **libaw4c**) - A free helper program that collects the max number of daily available candles at the tap of a button, with extra features such WL, spirit collection, etc.
+- **libdukun** (ex. **libaw4c**) - A free helper program that collects the max number of daily available candles at the tap of a button, with extra features such WL, spirit collection, etc.
 - **libsMite** - Universal mod with Semi-AutoCR, Auto burn, Relationship unlocks, etc.
 - **libRomanBeta** - Universal mod for Sky Beta
 - **libRomanDev** - Substitutes the Beta server with the Dev one (an even more private server, originally only for TGC devs)
 - **libfun** - Universal mod, but paid and poorly maintained
 
 Discontinued - **!! do not use !!**
+- **AutoWax** or **libaw4c** - A popular program that utilized the Sky protocol (API) to collect candles, quests, spirits and winged light. Development stopped.
 - **reHell** or **libgxost** - Universal mod, no longer maintained
 - **libHellboy** - Universal mod, no longer maintained
 
@@ -35,7 +36,7 @@ Discontinued - **!! do not use !!**
 3. Tap on **Canvas.apk**. If prompted, allow the installation from unknown sources and proceed.
 4. Hit **"Done"** *(don't open yet!)*.
 5. Find the newly added **"Mod Manager"** in your app drawer.
-6. Hit **"Add Mod"** on the top left. Navigate to your downloads and import **aw4c.xyz.so** *(xyz being the version number)*.
+6. Hit **"Add Mod"** on the top left. Navigate to your downloads and import **libdukun.so** *(xyz being the version number)*.
 7. Repeat step 6 for any other mods you might have.
 8. Close **Mod Manager** *(swipe from your recent apps)*.
 9. Launch **Canvas**, sign in to Sky and enjoy!
@@ -64,7 +65,7 @@ Telegram - SkyHub2 Community: https://t.me/+Y7derzeLVuMzY2I1
 
 Discord - Official Sky Server: https://discord.com/invite/thatskygame  
 Discord - Canvascord: https://discord.com/invite/k2JBeWkJ3b  
-Discord - •~S'Kids.Nest~•: https://discord.com/invite/fDFU5QWKgh  
+Discord - •-S'Kids.Nest-•: https://discord.com/invite/fDFU5QWKgh  
 Discord - SKY[1]MOD server: https://discord.com/invite/HQe3y4aUVb  
 Discord - Hellboy Project: https://discord.com/invite/2AHfEQJggX  
 Discord - Sky CotL Shelter: https://discord.com/invite/MzQFnr3RPZ  
