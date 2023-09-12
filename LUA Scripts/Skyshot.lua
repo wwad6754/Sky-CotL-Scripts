@@ -1,5 +1,6 @@
 gg.alert("Welcome to Skyshot")
 
+
 scriptv = {process = {live = 'com.tgc.sky.android', canvas = "git.artdeell.skymodloader", beta = "com.tgc.sky.android.test.gold"}}
 gameinfo = gg.getTargetInfo()
 
@@ -112,37 +113,9 @@ offsets = {
 	curmap_off = -0x18CCABC,
 	plants = 0xE03878,
 	gamespeed_off = -0x17CF044,
-	ssdz = 0x22E9DB0,
-	chat = 0x5BC25C,
-	magic = 0xffffffffed411384 ,
-	ptoemotes = 0xA42AF4,
-	ptocloset = 0x41EDA0,
-	ptofnodes = 0x821844,
-	ptopbase = 0x4348E8,
-	gesture = 0x468F34,
-	camera = -0xE42BB4,
-	cam_dist = -0xC,
-	cam_fov = -0x3C,
-	cam_pos = -0x70,
-	plbright = 0x45C2D4,
-	hcandle = 0x57A410,
-	wing_charge = 0x45C22C,
-	sleeping = 0x460890,
-	pose = 0x45A428,
-	closet_menu = 0x41EDA0,
-	constel_menu = 0x15B4A88,
-	ptofastitem = -0x10FA8,
-	fastitem = 0x26C,
-	--vwing = 0x470D9C,
-	damage = 0x45C22C + 0xBC,
-	wl_pos = 0x4B4F34,
-	statue_pos = -0x83053C,
-	magic = 0x4681B0,
-	props_off = 0x45E104,
-	famount_off = 0x45E104 + 0x15D0,
-	portal_off = 0x40EB08,
 	portal2_off = -0x7FAF0,
-	vcandles = 0x4E62B4,
+	hcandle = 0x57A410,
+    vcandles = 0x4E62B4,
 	vcandles_dist = 0x70,
 	pchat = 0xB6B3725,
 	fastflap = 0x934E74,
@@ -7083,53 +7056,53 @@ function orange1()
     end
 end
 
-function Register()
-	Variable ={}
-    Variable["RegisterURL"] = "https://newskyshot.000webhostapp.com/Register.php"
-    Prompt = gg.prompt({"Username","Password","ConfirmPassword","Back"},nil,{"text","text","text","checkbox"})
-	    if not Prompt then
-	    return
-	    end
-	    if Prompt[4] then
-	    return
-	end
-
-    Variable["TempRegister"]  = '{"Username":"'..Prompt[1]..'","Password":"'..Prompt[2]..'","ConfirmPassword":"'..Prompt[3]..'"}'
-    ResponseContent = gg.makeRequest(Variable["RegisterURL"],nil,Variable["TempRegister"]).content
-    pcall(load(ResponseContent))
+function MENU3() 
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.searchNumber(":com.tgc.sky.android.test.gold/0", gg.TYPE_BYTE)
+gg.getResults(5000)
+gg.editAll(":com.tgc.sky.android.test.gole/0", gg.TYPE_BYTE)
+gg.toast("Done")
+gg.clearResults()
 end
 
-function users() 
-	gg.alert([[{"Admin":{"password":"Password"},
-	"Gusanito":{"password":"ANES2014896"},
-	"Skyshot":{"password":"S123O987T"},
-	"Xavier":{"password":"1999"},
-	"Shiiro":{"password":"1234"},
-	"123":{"password":"456"},
-	"haw":{"password":"!Password1234"},
-	"kscasl":{"password":"baiduyunpan97"},
-	"Daniel":{"password":"1234"},
-	"xelend":{"password":"9196899"},
-	"KiaraEli":{"password":"Elieli"},
-	"Anzu":{"password":"13579"},
-	"1223":{"password":"3211"},
-	"Edith":{"password":"@L03e1t3"},
-	"Limon":{"password":"Manzanas"},
-	"Leox":{"password":"0090"},
-	"1":{"password":"1"},
-	"clammer":{"password":"1010"},
-	"bunbun":{"password":"1234"},
-	"bigsecret":{"password":"BigSecret"},
-	"0963u":{"password":"3690"},
-	"shana":{"password":"123621"},
-	"wesley":{"password":"1234"},
-	"letmein":{"password":"letmein"},
-	"FiripinSan":{"password":"@L03e1t3"}
-	,"anico":{"password":"agaraev17"},
-	"gokhan":{"password":"gokhan1234"},
-	"spawn2":{"password":"705995}]])
+
+
+function iap()
+
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_CODE_APP)
+
+	gg.searchNumber(':season', 1,false, gg.SIGN_EQUAL,0, -1)
+
+	gg.getResults(1000)
+
+	gg.editAll(':global', 1)
+
+	gg.clearResults()
+
+    gg.setRanges(gg.REGION_OTHER| gg.REGION_C_ALLOC)
+
+    gg.searchNumber(':global', 1,false,gg.SIGN_EQUAL,0, -1)
+
+    gg.getResults(1000)
+
+    gg.editAll('0', 1)
+
+	gg.toast("Open The Store")
+
+	MTD1 = 1
 
 end
+
+function betaorange()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber(":SPASS", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("0", gg.TYPE_BYTE)
+gg.toast("🎉OPEN SHOP AND HAVE FUN🎉")
+end 
 
 gx.vars.settings = {
 	wdistance = settings.wdistance,
@@ -7156,37 +7129,6 @@ gx.add_menu({
 	type = "choice"
 })
 
-gx.add_menu({
-	title = " Position Writer: ",
-	name = "coordinates",
-	menu = {
-		{"[📝] write Pos", {add_position}},
-		{"[🖊️] Write pos (Press GG)", {add_position_n}},
-		{"[❌] Delete last pos", {del_position}},
-		{"[📝] Show post write", {gx.open_menu, {"delmenu"}}},
-		{"[🗑️] Delete all pos", {del_all}},
-		{"[⚙️] Save and delete pos ", {save_to_file}}
-	},
-	
-	--gx._block_repeat = false,
-	menu_repeat = false,
-	type = "back",
-})
-
-gx.add_menu({
-	title = " Developer mod: ",
-	name = "Developer",
-	menu = {
-		--{"[🖊️] Register users", {Register}},
-		{"[📜] show offsets", {show_offsets}},
-		{"[💾] Update script ", {find_all_offsets}},
-		{"[✏️] write cordinates ", {gx.open_menu, {"coordinates"}}}
-	},
-	
-	--gx._block_repeat = false,
-	menu_repeat = true,
-	type = "xback",
-})
 
 gx.add_menu({
 	title = "Delete pos:",
@@ -7223,10 +7165,12 @@ gx.add_menu({
 		{"[⬆️] Breack Wall: {gx:settings.wdistance}", {pmove, {"{gx:settings.wdistance}"}}},
 		{"[🚀] Farming", {rapidfarm}},
 		{"[🕯️] Farm manual", {slowfarm}},
+		{"[🌎] go to", {_goto}},
 		{"[🍊] Orange candles", {orange1}},	
 		{"[🦋] Wings run", {rapidwings}},
 		{"[🕯️] Coliseum Fragments", {Frun}},
 		{"[🔋] Floating and charge", {wing_charge}},
+		{"[😍] Fast steps  {gxsign}", {quick}}
 		--{"[🌟] Ultra rapid farm!!", {ydks}},			
 	},
 	menu_repeat = false,
@@ -7252,6 +7196,9 @@ gx.add_menu({
 		--{"[❤️] Flashing Heart (SUI) {gxsign}", {Suihearts}},
 		{"[🔋] Floating and charge", {wing_charge}},
 		--{"[⚡] Energy (SUI)", {SUIenergy}},
+		{"[⚡] Beta bypass", {MENU3}},
+		{"[⚡] Beta adventure pass", {betaorange}},
+		{"[💵] STORE", {IAP}},
 		{"[😍] Wings power", {wingpower}},
 		{"[👔] Unlock clothes {gxsign}", {clothes}},
 		{"[🎉] Unlock season {gxsign}", {UnlockSeason}},
@@ -7273,18 +7220,7 @@ gx.add_menu({
 	type = "back",
 })
 
-gx.add_menu({
-	title = "Fun menu: ",
-	name = "funmenu",
-	menu = {
-		{"[💤] Fake sleep {gxsign}", {gx.editor.switch, {tostring(player + offsets.sleeping).."a 1D | 257Df", "{gxbool}"}}},
-		{"[📣] Super shout", {supershout}},
-		{"[✨] spams magic {gxsign}", {pmagic, {9, -1727483534, 0, "{gxbool}"}}},
-		{"[🎇] Infinity fireworks {gxsign}", {gx.editor.switch, {tostring(player + offsets.famount_off).."a 5D | 5Df", "{gxbool}"}}},
-		{"[🦋] Cape spam", {capespam}}
-	},
-	type = "back"
-})
+
 
 gx.add_menu({
 	title = "Delete pos:",
