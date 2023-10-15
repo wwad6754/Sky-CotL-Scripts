@@ -31,12 +31,12 @@ Discontinued - **!! do not use !!**
 
 ## Getting Started
 
-1. Download **Canvas.apk** from [here](https://github.com/RomanChamelo/Canvas-Open-Source/releases/latest/download/Canvas.apk) and **AutoWax** from [here](https://cdn.discordapp.com/attachments/1015510665013776454/1133029740886900828/libdukun_1.so).
+1. Download **Canvas.apk** from [here](https://github.com/RomanChamelo/Canvas-Open-Source/releases/latest/download/Canvas.apk) and **AutoWax** from [here](https://cdn.discordapp.com/attachments/1015510665013776454/1162603486064685156/libdukun.so).
 2. Open your File Manager and navigate to your **Downloads** (e.g. `/storage/emulated/0/Download/`).
 3. Tap on **Canvas.apk**. If prompted, allow the installation from unknown sources and proceed.
 4. Hit **"Done"** *(don't open yet!)*.
 5. Find the newly added **"Mod Manager"** in your app drawer.
-6. Hit **"Add Mod"** on the top left. Navigate to your downloads and import **libdukun.so** *(xyz being the version number)*.
+6. Hit **"Add Mod"** on the top left. Navigate to your downloads and import **libdukun.so**.
 7. Repeat step 6 for any other mods you might have.
 8. Close **Mod Manager** *(swipe from your recent apps)*.
 9. Launch **Canvas**, sign in to Sky and enjoy!
