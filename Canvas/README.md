@@ -14,13 +14,13 @@ In light of the AutoWax creator's access to Sky being revoked, the AutoWax team 
 - **libdukun** (ex. **libaw4c**) - A free helper program that collects the max number of daily available candles at the tap of a button, with extra features such WL, spirit collection, etc.
 - **libsMite** - Universal mod with Semi-AutoCR, Auto burn, Relationship unlocks, etc.
 - **libRomanBeta** - Universal mod for Sky Beta
-- **libRomanDev** - Substitutes the Beta server with the Dev one (an even more private server, originally only for TGC devs)
 - **libfun** - Universal mod, but paid and poorly maintained
 
 Discontinued - **!! do not use !!**
 - **AutoWax** or **libaw4c** - A popular program that utilized the Sky protocol (API) to collect candles, quests, spirits and winged light. Development stopped.
 - **reHell** or **libgxost** - Universal mod, no longer maintained
 - **libHellboy** - Universal mod, no longer maintained
+- **libRomanDev** - Redirects all game traffic to the Dev server (a private server reserved for TGC staff). Access is now restricted, if you're still facing "Game Data Corrupted" screens, make sure to remove/disable mods/settings related to this server.
 
 ⬆️ <ins>It's worth noting that these add-ons are fan-made and can have lots of advantages (or otherwise cause trouble) depending on the author's intentions.</ins> ⬆️
 
