@@ -1,9 +1,5 @@
 # Welcome to Canvas!
 
-## 📢 Deprecation Notice (June 28, 2023):
-
-In light of the AutoWax creator's access to Sky being revoked, the AutoWax team has announced in a [message](https://t.me/skyautowax/102) dated June 28, 2023, that they are 'open sourcing Canvas itself, AW4C, and the verification bot.' This implies that while AutoWax is no longer being maintained, its source code will continue to be available as a public archive. This will allow others to freely use, modify, and reproduce the source code.
-
 ## What's Canvas?
 - ⚙️ **Canvas**, also known as **Sky Modloader**, is a lightweight wrapper around the Sky app made by [@artdeell](https://github.com/artdeell) and [@lukas0x1](https://github.com/lukas0x1). It takes up a sole **~15 MB** of your phone's storage and hooks into Sky at runtime, thus acting as "bridge" and providing an interface that developers can build plug-ins on top of. It's completely modular, so you can load existing plug-ins or write your own. The main advantage of Canvas over traditional mods is that it doesn't require elevated privileges or any specific programming skills. Canvas is important, but requires libs to be fully operational.
 
@@ -51,12 +47,12 @@ To update your existing mods (files ending in *.so), do the following:
 6. Your mod is updated and ready to use!
 
 ## Is Canvas safe?
-- Canvas, in its core form, is entirely [safe](https://www.virustotal.com/gui/file/309ca0dd72deed9d3642419fb39f2e470df3b37df95890a7814b0e2c5cea01f8), and its source code was recently disclosed to the [public](https://github.com/artdeell/Canvas-Open-Source), which further contributes to its transparency. It does permit modifications, from either third-party sources or not, to take complete charge of your active Sky instance, which includes the ability to access your account information and more. Therefore, exercising discretion and considering user reviews prior to usage is strongly recommended. Additionally, certain modifications present features viewed as 'risky', such as spam honk, teleportation by coordinates, auto melt, and more. These can attract attention from others and potentially result in reporting to TGC. It's important to note that any actions related to **cheating**, **hacking** or **exploiting** are **expressly forbidden** by TGC's [EULA/ToS](https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/460-eula-terms-of-service/). Accounts identified as participating in these activities may be subject to **permanent closure**.
+- Canvas, in its core form, is entirely [safe](https://www.virustotal.com/gui/file/309ca0dd72deed9d3642419fb39f2e470df3b37df95890a7814b0e2c5cea01f8), and its source code is publicly [available](https://github.com/artdeell/Canvas-Open-Source). This contributes to the app's transparency, and allows others to view, use, modify, and reproduce its source code. Canvas does permit modifications, from either third-party sources or not, to take complete charge of your active Sky instance, which includes the ability to access your account information and more. Therefore, exercising discretion and considering user reviews prior to usage is strongly recommended. Additionally, certain modifications present features viewed as 'risky', such as spam honk, teleportation by coordinates, auto melt, and more. These can attract attention from others and potentially result in reporting to TGC. It's important to note that any actions related to **cheating**, **hacking** or **exploiting** are **expressly forbidden** by TGC's [EULA/ToS](https://thatgamecompany.helpshift.com/hc/en/17-sky-children-of-the-light/faq/460-eula-terms-of-service/). Accounts identified as participating in these activities may be subject to **permanent closure**.
 
 ## Credits & Resources:
 Telegram - AutoWax EN: https://t.me/skyautowax  
 Telegram - AutoWax RU: https://t.me/ruautowax  
-Telegram - AutoWax.[pvt.ltd]:
+Telegram - 𝚂𝙺𝚈[𝙊𝙉𝙀]𝙲𝙷𝙰𝚃:
  https://t.me/onemodofficial  
 Telegram - Sky Mod's And Lua: https://t.me/skyModsandlua  
 Telegram - Sky Mods: https://t.me/ThatSkyMod  
@@ -69,4 +65,4 @@ Discord - •-S'Kids.Nest-•: https://discord.com/invite/fDFU5QWKgh
 Discord - SKY[1]MOD server: https://discord.com/invite/HQe3y4aUVb  
 Discord - Hellboy Project: https://discord.com/invite/2AHfEQJggX  
 Discord - Sky CotL Shelter: https://discord.com/invite/MzQFnr3RPZ  
-Discord - Skyshot Scripts: https://discord.com/invite/SC5GekNvfW  
+Discord - NeuraX.Script: https://discord.com/invite/SC5GekNvfW  
