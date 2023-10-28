@@ -27,7 +27,7 @@ Discontinued - **!! do not use !!**
 
 ## Getting Started
 
-1. Download **Canvas.apk** from [here](https://github.com/RomanChamelo/Canvas-Open-Source/releases/latest/download/Canvas.apk) and **AutoWax** from [here](https://cdn.discordapp.com/attachments/1015510665013776454/1162603486064685156/libdukun.so).
+1. Download **Canvas.apk** from [here](https://github.com/RomanChamelo/Canvas-Open-Source/releases/latest/download/Canvas.apk) and **AutoWax** from [here](https://cdn.discordapp.com/attachments/1015510665013776454/1167573614149767218/libdukun_1.3.13.so).
 2. Open your File Manager and navigate to your **Downloads** (e.g. `/storage/emulated/0/Download/`).
 3. Tap on **Canvas.apk**. If prompted, allow the installation from unknown sources and proceed.
 4. Hit **"Done"** *(don't open yet!)*.
